@@ -1,77 +1,105 @@
 <template>
-  <v-row justify="center" align="center">
-    <v-col cols="12" sm="8" md="6">
-      <v-card class="logo py-4 d-flex justify-center">
-        <NuxtLogo />
-        <VuetifyLogo />
-      </v-card>
-      <v-card>
-        <v-card-title class="headline">
-          Welcome to the Vuetify + Nuxt.js template
-        </v-card-title>
-        <v-card-text>
-          <p>Vuetify is a progressive Material Design component framework for Vue.js. It was designed to empower developers to create amazing applications.</p>
-          <p>
-            For more information on Vuetify, check out the <a
-              href="https://vuetifyjs.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              documentation
-            </a>.
-          </p>
-          <p>
-            If you have questions, please join the official <a
-              href="https://chat.vuetifyjs.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="chat"
-            >
-              discord
-            </a>.
-          </p>
-          <p>
-            Find a bug? Report it on the github <a
-              href="https://github.com/vuetifyjs/vuetify/issues"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="contribute"
-            >
-              issue board
-            </a>.
-          </p>
-          <p>Thank you for developing with Vuetify and I look forward to bringing more exciting features in the future.</p>
-          <div class="text-xs-right">
-            <em><small>&mdash; John Leider</small></em>
-          </div>
-          <hr class="my-3">
-          <a
-            href="https://nuxtjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Nuxt Documentation
-          </a>
-          <br>
-          <a
-            href="https://github.com/nuxt/nuxt.js"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Nuxt GitHub
-          </a>
-        </v-card-text>
-        <v-card-actions>
-          <v-spacer />
-          <v-btn
-            color="primary"
-            nuxt
-            to="/inspire"
-          >
-            Continue
-          </v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-col>
-  </v-row>
+  <div>
+    <v-row justify="end" class="pa-3">
+      <v-btn color="tertiary" dense>
+        <v-icon left> mdi-calendar-month-outline </v-icon>
+        AKHIR AMBIL OBAT ARV
+      </v-btn>
+    </v-row>
+
+    <v-row no-gutters class="mt-3">
+      <v-col cols="12" class="mb-2">
+        <v-alert class="mb-0 black--text" border="left" color="secondary" dense>
+          Hari Ke-4, Konsumsi ARV
+        </v-alert>
+      </v-col>
+
+      <v-col cols="12" class="mb-2">
+        <v-alert class="mb-0 black--text" border="left" color="secondary" dense>
+          3 Hari, Periksa Kesehatan Berikutnya
+        </v-alert>
+      </v-col>
+
+      <v-col cols="12" class="mb-2">
+        <v-alert class="mb-0 black--text" border="left" color="secondary" dense>
+          23 Desember 2020, Pengambilan ARV Berikutnya
+        </v-alert>
+      </v-col>
+    </v-row>
+
+    <v-divider class="my-3"></v-divider>
+
+    <v-list dense>
+      <v-list-item-group>
+        <v-list-item
+          v-for="(navBtn, i) in navigationButtons"
+          :key="i"
+          :style="`border: 1px solid #8D6E63 !important;`"
+          class="brown lighten-5 rounded-lg my-2"
+        >
+          <v-row align="center" class="py-1">
+            <v-col cols="1" class="pa-1">
+              <v-icon color="black">{{ navBtn.icon }}</v-icon>
+            </v-col>
+            <v-col class="font-weight-medium subtitle-2 black--text">
+              {{ navBtn.title }}
+            </v-col>
+            <v-col cols="1" class="pa-1">
+              <v-icon color="black">mdi-chevron-right</v-icon>
+            </v-col>
+          </v-row>
+        </v-list-item>
+      </v-list-item-group>
+    </v-list>
+  </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      navigationButtons: [
+        {
+          title: 'Profil',
+          icon: 'mdi-account',
+          route: '',
+        },
+        {
+          title: 'Kunjungan Pemeriksaan Laboratorium',
+          icon: 'mdi-calendar-month-outline',
+          route: '',
+        },
+        {
+          title: 'Informasi HIV/AIDS dan Retensi',
+          icon: 'mdi-alert-circle-outline',
+          route: '',
+        },
+        {
+          title: 'Terapi Sehatku',
+          icon: 'mdi-heart',
+          route: '',
+        },
+        {
+          title: 'Catatan Penting',
+          icon: 'mdi-notebook-check',
+          route: '',
+        },
+      ],
+    }
+  },
+
+  computed: {
+    title() {
+      return 'Beranda'
+    },
+
+    showIconBack() {
+      return false
+    },
+
+    showIconNotification() {
+      return true
+    },
+  },
+}
+</script>
