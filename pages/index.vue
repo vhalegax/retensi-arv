@@ -67,6 +67,11 @@ export default {
           route: 'profil',
         },
         {
+          title: 'Kunjungan Layanan ARV',
+          icon: 'mdi-hospital-box',
+          route: 'kunjungan-layanan-arv',
+        },
+        {
           title: 'Kunjungan Pemeriksaan Laboratorium',
           icon: 'mdi-calendar-month-outline',
           route: '',
@@ -88,6 +93,6 @@ export default {
         },
       ],
     }
-  }
+  },
 }
 </script>

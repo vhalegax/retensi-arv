@@ -6,7 +6,7 @@
       </v-btn>
       <v-toolbar-title class="pl-1 white--text" v-text="title" />
       <v-spacer />
-      <v-btn v-if="showIconNotification" icon >
+      <v-btn v-if="showIconNotification" icon>
         <v-icon large color="white">mdi-bell-ring</v-icon>
       </v-btn>
     </v-app-bar>
@@ -32,6 +32,10 @@ export default {
         case 'profil':
           title = 'Profil'
           break
+        case 'kunjungan-layanan-arv':
+          title = 'Kunjungan Layanan ARV'
+          break
+
         default:
           title = 'Beranda'
       }
