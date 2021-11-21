@@ -1,12 +1,12 @@
 <template>
   <v-app>
     <v-app-bar fixed app color="primary">
-      <v-btn v-if="showIconBack" icon>
+      <v-btn v-if="showIconBack" icon @click="$router.back()">
         <v-icon large color="white">mdi-arrow-left-bold</v-icon>
       </v-btn>
       <v-toolbar-title class="pl-1 white--text" v-text="title" />
       <v-spacer />
-      <v-btn v-if="showIconNotification" icon>
+      <v-btn v-if="showIconNotification" icon >
         <v-icon large color="white">mdi-bell-ring</v-icon>
       </v-btn>
     </v-app-bar>
@@ -26,15 +26,24 @@ export default {
 
   computed: {
     title() {
-      return 'Beranda'
+      const routeName = this.$route.name
+      let title = ''
+      switch (routeName) {
+        case 'profil':
+          title = 'Profil'
+          break
+        default:
+          title = 'Beranda'
+      }
+      return title
     },
 
     showIconBack() {
-      return false
+      return this.$route.name !== 'index'
     },
 
     showIconNotification() {
-      return true
+      return this.$route.name === 'index'
     },
   },
 }

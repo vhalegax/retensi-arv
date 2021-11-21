@@ -36,6 +36,8 @@
           :key="i"
           :style="`border: 1px solid #8D6E63 !important;`"
           class="brown lighten-5 rounded-lg my-2"
+          nuxt
+          :to="navBtn.route"
         >
           <v-row align="center" class="py-1">
             <v-col cols="1" class="pa-1">
@@ -62,7 +64,7 @@ export default {
         {
           title: 'Profil',
           icon: 'mdi-account',
-          route: '',
+          route: 'profil',
         },
         {
           title: 'Kunjungan Pemeriksaan Laboratorium',
@@ -86,20 +88,6 @@ export default {
         },
       ],
     }
-  },
-
-  computed: {
-    title() {
-      return 'Beranda'
-    },
-
-    showIconBack() {
-      return false
-    },
-
-    showIconNotification() {
-      return true
-    },
-  },
+  }
 }
 </script>
