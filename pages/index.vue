@@ -84,7 +84,7 @@ export default {
         {
           title: 'Terapi Sehatku',
           icon: 'mdi-heart',
-          route: '',
+          route: '/terapi-sehatku/',
         },
         {
           title: 'Catatan Penting',

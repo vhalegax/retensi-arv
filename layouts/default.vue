@@ -42,10 +42,8 @@ export default {
           title = 'Kunjunganan Pemeriksaan Laboratorium'
           break
 
-       
-
         // * informasi-hiv-aids
-         case 'informasi-hiv-aids-dan-retensi':
+        case 'informasi-hiv-aids-dan-retensi':
           title = 'Informasi HIV/AIDS dan Retensi'
           break
 
@@ -88,6 +86,56 @@ export default {
           title = 'LTFU (Putus ARV)'
           break
         // #
+
+        // * Terapi Sehatku
+        case 'terapi-sehatku':
+          title = 'Terapi Sehatku'
+          break
+
+        case 'terapi-sehatku-infeksi-oppurtunistik':
+          title = 'Infeksi Oppurtunistik'
+          break
+
+        case 'terapi-sehatku-info-perkembanganku':
+          title = 'Info Perkembanganku'
+          break
+        case 'terapi-sehatku-info-perkembanganku-hasil-pemeriksaan-kesehatanku':
+          title = 'Hasil Pemeriksaan Kesehatanku'
+          break
+        case 'terapi-sehatku-info-perkembanganku-hasil-pemeriksaan-kesehatanku-berat-badan':
+          title = 'Berat Badan'
+          break
+        case 'terapi-sehatku-info-perkembanganku-hasil-pemeriksaan-kesehatanku-pemeriksaan-laborat':
+          title = 'Pemeriksaan Laborat'
+          break
+
+        case 'terapi-sehatku-info-perkembanganku-kondisi-saat-ini':
+          title = 'Kondisi Saat Ini'
+          break
+        case 'terapi-sehatku-info-perkembanganku-kondisi-saat-ini-efek-samping-arv':
+          title = 'Efek Samping ARV'
+          break
+        case 'terapi-sehatku-info-perkembanganku-kondisi-saat-ini-gejala-sakit':
+          title = 'Gejala Sakit Yang Dirasakan'
+          break
+
+        case 'terapi-sehatku-pengawasan-minum-obat':
+          title = 'Pengawasan Minum Obat'
+          break
+
+        case 'terapi-sehatku-penyakit-penyerta':
+          title = 'Penyakit Penyerta'
+          break
+
+        case 'terapi-sehatku-terapi-hiv-aids':
+          title = 'Terapi HIV/AIDS'
+          break
+        case 'terapi-sehatku-terapi-hiv-aids-terapi-awal':
+          title = 'Terapi Awal'
+          break
+        case 'terapi-sehatku-terapi-hiv-aids-terapi-lanjut':
+          title = 'Terapi Lanjut Bagi Yang Pernah Berhenti ARV'
+          break
 
         default:
           title = 'Beranda'
