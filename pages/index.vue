@@ -64,22 +64,22 @@ export default {
         {
           title: 'Profil',
           icon: 'mdi-account',
-          route: 'profil',
+          route: '/profil/',
         },
         {
           title: 'Kunjungan Layanan ARV',
           icon: 'mdi-hospital-box',
-          route: 'kunjungan-layanan-arv',
+          route: '/kunjungan-layanan-arv/',
         },
         {
           title: 'Kunjungan Pemeriksaan Laboratorium',
           icon: 'mdi-calendar-month-outline',
-          route: '',
+          route: '/kunjungan-pemeriksaan-laboratorium/',
         },
         {
           title: 'Informasi HIV/AIDS dan Retensi',
           icon: 'mdi-alert-circle-outline',
-          route: '',
+          route: '/informasi-hiv-aids-dan-retensi/',
         },
         {
           title: 'Terapi Sehatku',

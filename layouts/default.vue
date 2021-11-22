@@ -26,19 +26,73 @@ export default {
 
   computed: {
     title() {
-      const routeName = this.$route.name
       let title = ''
+      const routeName = this.$route.name
+
       switch (routeName) {
         case 'profil':
           title = 'Profil'
           break
+
         case 'kunjungan-layanan-arv':
           title = 'Kunjungan Layanan ARV'
           break
 
+        case 'kunjungan-pemeriksaan-laboratorium':
+          title = 'Kunjunganan Pemeriksaan Laboratorium'
+          break
+
+       
+
+        // * informasi-hiv-aids
+         case 'informasi-hiv-aids-dan-retensi':
+          title = 'Informasi HIV/AIDS dan Retensi'
+          break
+
+        case 'informasi-hiv-aids-dan-retensi-mengenal-hiv-aids':
+          title = 'Mengenal HIV/AIDS'
+          break
+        case 'informasi-hiv-aids-dan-retensi-mengenal-hiv-aids-pencegahan-penularan-dan-pengobatan-hiv-aids':
+          title = 'Pencegahan, Penularan Dan Pengobatan HIV/AIDS'
+          break
+        case 'informasi-hiv-aids-dan-retensi-mengenal-hiv-aids-pengertian-hiv-aids':
+          title = 'Pengertian HIV/AIDS'
+          break
+        case 'informasi-hiv-aids-dan-retensi-mengenal-hiv-aids-pencegahan-penularan-dan-pengobatan-hiv-aids-info-kelengkapan-terapi-arv':
+          title = 'Info Kelengkapan Terapi ARV'
+          break
+        case 'informasi-hiv-aids-dan-retensi-mengenal-hiv-aids-pencegahan-penularan-dan-pengobatan-hiv-aids-info-kelengkapan-terapi-arv-mengenal-arv':
+          title = 'Mengenal ARV'
+          break
+        case 'informasi-hiv-aids-dan-retensi-mengenal-hiv-aids-pencegahan-penularan-dan-pengobatan-hiv-aids-info-kelengkapan-terapi-arv-pentingnya-tertib-administrasi-untuk-terapi-arv':
+          title = 'Pentingnya Tertib Administrasi Untuk Terapi ARV'
+          break
+
+        case 'informasi-hiv-aids-dan-retensi-pentingnya-Ketaatan-program-hiv-aids':
+          title = 'Pentingnya Ketaatan Program HIV/AIDS'
+          break
+
+        case 'informasi-hiv-aids-dan-retensi-tips-menjaga-kualitas-hidup-anda':
+          title = 'Tips Menjaga Kualitas Hidup Anda'
+          break
+
+        case 'informasi-hiv-aids-dan-retensi-hal-penting-dalam-retensi':
+          title = 'Hal Penting Dalam Retensi'
+          break
+
+        case 'informasi-hiv-aids-dan-retensi-stigma-dan-diskiriminasi':
+          title = 'Stigma dan Diskriminasi'
+          break
+
+        case 'informasi-hiv-aids-dan-retensi-ltfu':
+          title = 'LTFU (Putus ARV)'
+          break
+        // #
+
         default:
           title = 'Beranda'
       }
+
       return title
     },
 
