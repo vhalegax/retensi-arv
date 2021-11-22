@@ -137,6 +137,12 @@ export default {
           title = 'Terapi Lanjut Bagi Yang Pernah Berhenti ARV'
           break
 
+        //
+
+        case 'catatan-penting':
+          title = 'Catatan Penting'
+          break
+
         default:
           title = 'Beranda'
       }

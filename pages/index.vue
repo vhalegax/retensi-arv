@@ -89,7 +89,7 @@ export default {
         {
           title: 'Catatan Penting',
           icon: 'mdi-notebook-check',
-          route: '',
+          route: '/catatan-penting/',
         },
       ],
     }
