@@ -43,7 +43,7 @@ export default {
     return {
       inffectionOppurtunisticts: [
         'Diare',
-        'Tuber Kolosius',
+        'Tuberkulosis /TB paru/',
         'Infeksi Jamur (mulut, kulit, kuku, dll)',
         'Radang Paru (Pneumonia)',
         'Radang Selaput Otak (Meningitis)',
@@ -53,7 +53,7 @@ export default {
         'Pneumocytis Carinii (PCP)',
         'Lainnya',
       ],
-      inffectionOppurtunistictSelected: 'Tuber Kolosius',
+      inffectionOppurtunistictSelected: 'Diare',
     }
   },
 }

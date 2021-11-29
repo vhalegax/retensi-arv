@@ -16,13 +16,13 @@
 
       <v-col cols="12" class="mb-2">
         <v-alert class="mb-0 black--text" border="left" color="secondary" dense>
-          3 Hari, Periksa Kesehatan Berikutnya
+          26 Hari, Periksa Kesehatan Berikutnya
         </v-alert>
       </v-col>
 
       <v-col cols="12" class="mb-2">
         <v-alert class="mb-0 black--text" border="left" color="secondary" dense>
-          23 Desember 2020, Pengambilan ARV Berikutnya
+          26 Desember 2021, Pengambilan ARV Berikutnya
         </v-alert>
       </v-col>
     </v-row>

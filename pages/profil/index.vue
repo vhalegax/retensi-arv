@@ -1,6 +1,6 @@
 <template>
   <v-form>
-    <v-container class="pa-0">
+    <v-container class="pa-0 mb-6">
       <v-row>
         <v-col cols="12" sm="6" md="3">
           <v-text-field
@@ -8,6 +8,14 @@
             placeholder="NIK"
             value="0847783223218732"
             type="number"
+            filled
+          ></v-text-field>
+
+          <v-text-field
+            label="Nama"
+            placeholder="Nama"
+            value="Alexander Suep"
+            type="text"
             filled
           ></v-text-field>
 
@@ -43,6 +51,14 @@
             placeholder="NIK"
             value="1462357293451032"
             type="number"
+            filled
+          ></v-text-field>
+
+          <v-text-field
+            label="Nama Keluarga"
+            placeholder="Nama Keluarga"
+            value="Kristo"
+            type="text"
             filled
           ></v-text-field>
 

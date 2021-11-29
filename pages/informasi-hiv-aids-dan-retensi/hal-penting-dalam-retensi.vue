@@ -1,7 +1,12 @@
 <template>
   <v-row>
     <v-col>
-      <h4> 1. Patuh program pengobatan ARV </h4>  
+      <b>Patuh Program pengobatan ARV :</b>
+      <ol class="mt-3">
+        <li>
+          Patuh terhadap konsumsi ARV, patuh periksa fisik dan periksa laborat
+        </li>
+      </ol>
     </v-col>
   </v-row>
 </template>
