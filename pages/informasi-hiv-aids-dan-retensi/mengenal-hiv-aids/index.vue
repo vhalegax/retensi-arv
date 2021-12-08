@@ -39,6 +39,11 @@ export default {
           icon: 'mdi-hospital-box',
           route: 'pencegahan-penularan-dan-pengobatan-hiv-aids/',
         },
+        {
+          title: 'Rangkuman HIV/AIDS dalam bentuk gambar.',
+          icon: 'mdi-picture',
+          route: 'rangkuman-hiv-aids-bentuk-gambar/',
+        },
       ],
     }
   },

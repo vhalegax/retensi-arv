@@ -50,6 +50,9 @@ export default {
         case 'informasi-hiv-aids-dan-retensi-mengenal-hiv-aids':
           title = 'Mengenal HIV/AIDS'
           break
+        case 'informasi-hiv-aids-dan-retensi-mengenal-hiv-aids-rangkuman-hiv-aids-bentuk-gambar':
+          title = 'Gambar'
+          break
         case 'informasi-hiv-aids-dan-retensi-mengenal-hiv-aids-pencegahan-penularan-dan-pengobatan-hiv-aids':
           title = 'Pencegahan, Penularan Dan Pengobatan HIV/AIDS'
           break
