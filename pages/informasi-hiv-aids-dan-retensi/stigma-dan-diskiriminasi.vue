@@ -1,5 +1,5 @@
 <template>
-  <v-row>
+  <v-row class="text-justify">
     <v-col>
       <p>
         Proses sosial/pengalaman atau diantisipasi yang dicirikan dengan
@@ -16,24 +16,24 @@
       </p>
 
       <b>Faktor yang mempengaruhi stigma dan diskriminasi :</b>
-      <ol class="mt-3">
+      <ol class="mt-3 text-justify">
         <li>
-          Ketakutan tertular HIV/AIDS : sehingga tidak mau berjabat tangan,
-          tidak mau menyentuh, membedakan alat makan, tidak mau berbagi
-          peralatan tidak mau menggunakan toilet bersama, tidak mau mencicipi
-          makanan olahan ODHA dll.
+          Ketakutan tertular HIV/AIDS: sehingga tidak mau berjabat tangan, tidak
+          mau menyentuh, membedakan alat makan, tidak mau berbagi peralatan
+          tidak mau menggunakan toilet bersama, tidak mau mencicipi makanan
+          olahan ODHA dll.
         </li>
         <li>
-          Isolasi social: mengakhiri hubungan pertemanan, menjauhi pertemuan,
-          undangan , menolak dan berhenti mengunjungi ODHA
+          Isolasi social mengakhiri hubungan pertemanan, menjauhi pertemuan,
+          undangan, menolak dan berhenti mengunjungi ODHA.
         </li>
         <li>
           Stigma di keluarga: persepsi yang negative memungkinkan untuk
           memberikan stigma diskriminasi bagi ODHA, adanya perasaan malu jika
           salah satu anggota keluarga ada yang sakit, khawatir di beri label
-          keluarga nakal, tidak tahu aturan dll
+          keluarga nakal, tidak tahu aturan dll.
         </li>
-        <li>Kurangnya pengetahuan tentang HIV/AIDS bago ODHA dan OHIDA .</li>
+        <li>Kurangnya pengetahuan tentang HIV/AIDS bago ODHA dan OHIDA.</li>
       </ol>
     </v-col>
   </v-row>

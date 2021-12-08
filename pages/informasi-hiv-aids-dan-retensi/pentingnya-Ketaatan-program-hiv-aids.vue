@@ -1,6 +1,6 @@
 <template>
   <v-row>
-    <v-col>
+    <v-col class="text-justify">
       <b>Pentingnya ketaatan program HIV/AIDS = Taat terhadap program ARV</b>
       <ol class="mt-3">
         <li>

@@ -1,6 +1,6 @@
 <template>
   <v-row>
-    <v-col>
+    <v-col class="text-justify">
       <ol>
         <li>
           <b>Memahami kelengkapan administrasi Pengobatan dan komitmen ARV :</b>
@@ -17,16 +17,16 @@
             lain:
           </b>
           <br />
-          <ul>
+          <ol>
             <li>Membawa/ mengumpulkan KK atau KTP ODHA/OHIDA/PMO.</li>
-            <li>Memberikan Alamat asli atau domisili saat ini</li>
-            <li>Memberikan No Hp yang aktif ODHA/OHIDA /PMO minimal 2 no Hp</li>
-            <li>Mengisi formulir inform consent pengobatan ARV</li>
+            <li>Memberikan Alamat asli atau domisili saat ini.</li>
+            <li>Memberikan No Hp yang aktif ODHA/OHIDA /PMO minimal 2 no Hp.</li>
+            <li>Mengisi formulir inform consent pengobatan ARV.</li>
             <li>
               Menandatangani kelengkapan kesiapan pengobatan ARV dan komitmen
-              internal lain sesuai program pengobatan ARV
+              internal lain sesuai program pengobatan ARV.
             </li>
-          </ul>
+          </ol>
         </li>
       </ol>
     </v-col>
